@@ -1,0 +1,243 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <title>Finals Exam</title>
+    <style>
+        header {
+            background: url(img/morales\ 1.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+        }
+        .tabs .indicator {
+            background-color: #1a237e;
+        }
+        .tabs .tab a:focus, .tabs .tab a:focus.active{
+            background: transparent;
+        }
+        @media screen and (max-width: 670px){
+            header {
+                min-height: 500px;
+            }
+        }
+    </style>
+
+        <!-- navbar -->
+        <header>
+            <nav class="nav-wrapper red">
+                <div class="container">
+                    <a href="#" class="brand-logo">PH Jeepneys </a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>    
+                    <ul class="right hide-on-med-and-down"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#photos">Morales Motors</a></li>
+                        <li><a href="sarao.html">Sarao Motors</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="contact morales.html">Contact</a></li>
+                        <li><a href="https://www.whatsapp.com/" class="tooltipped btn-floating btn-small  light-green accent-3" data-tooltip="Whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a></li>
+                        <li><a href="https://www.viber.com/en/" class="tooltipped btn-floating btn-small #aa00ff purple accent-4" data-tooltip="viber">
+                            <i class="fab fa-viber"></i>
+                        </a></li>
+                        <li><a href="https://web.facebook.com/moralesfibertech/?_rdc=1&_rdr" class="tooltipped btn-floating btn-small blue darken-3" data-tooltip="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a></li>
+                        </ul>
+                    <ul class="sidenav #64b5f6 blue lighten-2" id="mobile-menu">
+                        <img src="img/morales company.jpg" width="300" height="200  ">
+                        <li><a href="#photos">Home</a></li>
+                        <li><a href="#photos">Morales Motors</a></li>
+                        <li><a href="sarao.html">Sarao Motors</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="contact morales.html">Contact</a></li>
+                    </ul>
+             </div>     
+            </nav>      
+        </header>
+
+        <!-- photo / grid -->
+        <section class="container section scrollspy" id="photos">
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/trumpets 1.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 offset-l1">
+                    <h2 class="indigo-text text-darken-2">Trumpets</h2>
+                    <p><b>Trumpets</b> are additional stainless steel ornaments atop the hood. The number of trumpets on a patók can vary, depending on the size and the owner’s preferences. It can be assumed that trumpets signify the loud, attention-seeking nature of the patók</p>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col s12 l4 push-l7 offset-l1">
+                    <img src="img/bomerang 1.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 push and pull-l4 right-align">
+                    <h2 class="indigo-text text-darken-2">Boomerang</h2>
+                    <p><b>Boomerang</b>, as drivers call it, helps passengers identify an incoming patók. It is placed prominently on the roof towards the front. Made of stainless steel, the boomerang is positioned like the letter V and resembles the horn of the Philippine national animal, the water buffalo (carabao).</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/tribal lettering 2.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 offset-l1">
+                    <h2 class="indigo-text text-darken-2">Tribal lettering </h2>
+                    <p>Different typefaces are usually inscribed on a typical jeep (Subido 1993, 17). But a patók jeep commonly uses <b>“tribal”</b> lettering, as a designer calls it. The tribal font features jagged edges and is laced with a lot of color. Sometimes, the design of a patók incorporates both letters and objects to construct words. The technique is similar to that of Jose Honorato Lozano’s Letras y Figuras, a style of writing in which letters form images of humans, plants, and animals. Letras y figuras also features landscapes and real-life scenarios that sometimes spell the words themselves (Subido 1993, 17). As for medium, patók lettering sometimes uses both stickers and paints.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- parallax -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/jeep.jpg"    alt="" class="responsive-img">
+            </div>
+        </div>
+
+        <!-- services / tabs -->
+       <section class="container section scrollspy" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">Jeepney Culture</h2>
+                <p>If there were a <b>“national mode of transportation”</b> in the Philippines, it would have to be the jeep. A <b>“cultural specimen” or “national art expression”</b> (Ortega 2002, 83), this public utility vehicle is a common sight throughout the country. But the province of Rizal, east of Metro Manila, has given it a rather unique twist; it developed the patók jeep</p>
+                <p>While the word <b>“jeep”</b> comes from the first two letters of GPV, which stands for General Purpose Vehicle (Philippine Motor Review 1972, 224), the term <b>“pátok”</b> first appeared in a Spanish-Tagalog dictionary by Pedro Serrano Laktaw. The word, whose stress falls on the first syllable, means “to jump” (Laktaw 1965, 1053).</p>
+                <p><b>“Patók</b>,” with the stress on the second syllable, is listed in a 1978 dictionary; it means “sure winner in a horse race” (Santos 1978, 2058).</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="indigo-text text-darken-4">Airbrushing</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-4">Decals Design</a>
+                    </li>
+                </ul>
+                <div class="col s12"  id="photography">
+                    <p class="flow-text indigo-text text-darken-4">Airbrushing</p>
+                    <p>Jeepneys are often adorned with vibrant stickers to enhance their appearance. However, patók jeepneys take a different approach, employing acrylic and enamel paints applied with airbrushes. A patók designer notes that while custom-made stickers are more costly and time-consuming to produce, airbrush-painted designs offer a more economical and quicker alternative. This preference allows owners to meet urgent deadlines and reduce production costs.</p>
+                    <img src="img/airbrushing.jpg" width="600" height="200" class="responsive-img materialboxed"   alt="airbrushing">
+                </div>
+                <div class="col s12"  id="editing">
+                    <p class="flow-text indigo-text text-darken-4">Decals Design</p>
+                    <p>The vibrant jeepney sun visor decals are a true testament to Filipino creativity and cultural pride. Each design is a kaleidoscope of color and life, often reflecting the diverse stories, beliefs, and dreams of its owner. From religious icons and catchy slogans to intricate patterns and local scenery, these decals transform each jeepney into a moving canvas. Not only do they add a personal touch, but they also serve as a beacon of identity, making every jeepney unmistakable even from afar. These visors aren't just for shade; they're a celebration of individuality and a vibrant expression of the Philippines' rich cultural</p>
+                    <img src="img/decals.jpg" width="600" height="300" class="responsive-img materialboxed alt="decals">
+                </div>
+            </div>
+        </div>
+       </section>
+
+        <!-- parallax -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/Design and feature 2.jpg" alt="" class="responsive-img">                
+            </div>
+        </div>
+
+        <!-- contact form -->
+        <section class="container section scrollspy" id="contact">
+            <div class="row">
+                <div class="col s12 l5">
+                    <img src="img/morales company.jpg" class="responsive-img materialboxed" width="600" height="100"> 
+                    <h5 class="cyan-text text-accent-3 center-align">Morales Motor Corporations(MEMBERS)</h5> 
+                    <p>Jeepney <b>"lateros,"</b> or body repair specialists, play a crucial role in the maintenance and aesthetic upkeep of the iconic jeepneys in the Philippines. These skilled artisans are responsible for the intricate metalwork that defines the jeepney’s distinctive look. Working with steel and other materials, they repair and refashion the jeepney bodies, ensuring they are both durable and visually appealing.</p>
+                </div>
+                <div class="col s12 l5 offset-l2">
+                    <h5 class="cyan-text text-accent-3">DATE SCHEDULE </h5>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email"> Enter your Email</label>
+                        
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                        <label for="message"> Message Morales Motor Corporation</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">date_range</i>
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Schedule date for fix up</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Services required...</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Modified</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Decals</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Airbrush</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="page-footer blue darken-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6">
+                    <h5>About Me</h5>
+                    <p>Melford Motors was finding business tough. Aware of the situation, Rufino Morales, a native of Taytay, Rizal and an employee of Melford Motors, decided to move to San Mateo in Rizal and start his own motor shop, Morales Motors, in 1978.</p>
+                        <p>Twelve years later, in 1990, he conceptualized the patók jeep, whose design has evolved and changed much since then.3 Other manufacturers come up with new designs every year; even Mr. Morales is still expected to generate innovative and better patóks.</p>
+                     </div>
+                    <div class="col s12 l4 offset-l2">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li><i class="material-icons prefix">place </i> #25 Gen. Luna St., Banaba, San Mateo, Rizal </li>
+                        <li><i class="material-icons prefix">call </i> #9970782</li>
+                        <li><i class="material-icons prefix">email </i> morales_motor@yahoo.com</li>
+                        <li><i class="material-icons prefix">facebook</i> https://web.facebook.com/moralesfibertech</li>
+                        
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+                <div class="container center-align">&copy; sPhilippine Jeepneys</div>
+            </div>
+        </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+        $('.tabs').tabs();
+        $('.datepicker').datepicker({
+            disableWeekends: true
+        });
+        $('.tooltipped').tooltip();
+        $('.scrollspy').scrollSpy();
+    });
+    </script>
+</body>
+</html>
